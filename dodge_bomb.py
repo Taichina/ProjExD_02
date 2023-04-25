@@ -1,5 +1,5 @@
 import pygame as pg
-import sys    
+import sys      
 
 def main():
     pg.display.set_caption("逃げろ！こうかとん")
