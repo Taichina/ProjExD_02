@@ -9,7 +9,7 @@ def main():
     kk_img = pg.image.load("ex02/fig/3.png")
     kk_img = pg.transform.rotozoom(kk_img, 0, 2.0)
     tmr = 0
-
+  
     while True:
         for event in pg.event.get():
             if event.type == pg.QUIT: 
